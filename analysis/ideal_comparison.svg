@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+<rect width="100%" height="100%" fill="#07131f"/>
+<style>text{font-family:Arial,sans-serif;fill:#dbe8ee}.small{font-size:14px}.axis{stroke:#77909e;stroke-width:1}.grid{stroke:#233746;stroke-width:1}.legend{font-size:16px}</style>
+<text x="100" y="42" font-size="25" font-weight="bold">Higher Isp reduces propellant mass; it does not prove lower energy use</text>
+<text x="100" y="68" class="small">Ideal 452 s chemical vs 900 s NTP reference · equal final dry mass · Δv sweep · no trajectory or hardware losses</text>
+<line x1="100" y1="532.0" x2="960" y2="532.0" class="grid"/>
+<text x="86" y="537.0" text-anchor="end" class="small">0.0</text>
+<line x1="100" y1="432.0" x2="960" y2="432.0" class="grid"/>
+<text x="86" y="437.0" text-anchor="end" class="small">0.5</text>
+<line x1="100" y1="332.0" x2="960" y2="332.0" class="grid"/>
+<text x="86" y="337.0" text-anchor="end" class="small">1.0</text>
+<line x1="100" y1="232.0" x2="960" y2="232.0" class="grid"/>
+<text x="86" y="237.0" text-anchor="end" class="small">1.5</text>
+<line x1="100" y1="132.0" x2="960" y2="132.0" class="grid"/>
+<text x="86" y="137.0" text-anchor="end" class="small">2.0</text>
+<line x1="100.0" y1="92" x2="100.0" y2="532" class="grid"/>
+<text x="100.0" y="556" text-anchor="middle" class="small">0</text>
+<line x1="315.0" y1="92" x2="315.0" y2="532" class="grid"/>
+<text x="315.0" y="556" text-anchor="middle" class="small">5</text>
+<line x1="530.0" y1="92" x2="530.0" y2="532" class="grid"/>
+<text x="530.0" y="556" text-anchor="middle" class="small">10</text>
+<line x1="745.0" y1="92" x2="745.0" y2="532" class="grid"/>
+<text x="745.0" y="556" text-anchor="middle" class="small">15</text>
+<line x1="960.0" y1="92" x2="960.0" y2="532" class="grid"/>
+<text x="960.0" y="556" text-anchor="middle" class="small">20</text>
+<line x1="100" y1="332.0" x2="960" y2="332.0" stroke="#8ca4af" stroke-dasharray="7 6"/>
+<line x1="100" y1="432.0" x2="960" y2="432.0" stroke="#8ca4af" stroke-dasharray="3 7"/>
+<line x1="100" y1="92" x2="100" y2="532" class="axis"/>
+<line x1="100" y1="532" x2="960" y2="532" class="axis"/>
+<polyline points="100.0,133.8 121.5,434.4 143.0,437.2 164.5,440.0 186.0,442.8 207.5,445.6 229.0,448.3 250.5,451.1 272.0,453.8 293.5,456.4 315.0,459.1 336.5,461.6 358.0,464.2 379.5,466.7 401.0,469.1 422.5,471.5 444.0,473.9 465.5,476.2 487.0,478.4 508.5,480.6 530.0,482.7 551.5,484.8 573.0,486.8 594.5,488.7 616.0,490.6 637.5,492.4 659.0,494.2 680.5,495.9 702.0,497.5 723.5,499.1 745.0,500.6 766.5,502.1 788.0,503.5 809.5,504.8 831.0,506.1 852.5,507.4 874.0,508.5 895.5,509.7 917.0,510.8 938.5,511.8 960.0,512.8" fill="none" stroke="#ff9d3d" stroke-width="3"/>
+<polyline points="100.0,332.0 121.5,342.9 143.0,353.2 164.5,363.0 186.0,372.2 207.5,381.0 229.0,389.2 250.5,397.0 272.0,404.4 293.5,411.3 315.0,417.9 336.5,424.2 358.0,430.0 379.5,435.6 401.0,440.9 422.5,445.9 444.0,450.6 465.5,455.0 487.0,459.2 508.5,463.2 530.0,466.9 551.5,470.5 573.0,473.8 594.5,477.0 616.0,480.0 637.5,482.9 659.0,485.5 680.5,488.1 702.0,490.5 723.5,492.7 745.0,494.9 766.5,496.9 788.0,498.8 809.5,500.6 831.0,502.4 852.5,504.0 874.0,505.5 895.5,507.0 917.0,508.3 938.5,509.6 960.0,510.8" fill="none" stroke="#4ed0e8" stroke-width="3"/>
+<polyline points="100.0,133.8 121.5,144.9 143.0,156.1 164.5,167.2 186.0,178.3 207.5,189.3 229.0,200.3 250.5,211.1 272.0,221.8 293.5,232.4 315.0,242.8 336.5,253.1 358.0,263.2 379.5,273.1 401.0,282.8 422.5,292.3 444.0,301.6 465.5,310.7 487.0,319.6 508.5,328.3 530.0,336.7 551.5,344.8 573.0,352.8 594.5,360.5 616.0,367.9 637.5,375.1 659.0,382.1 680.5,388.8 702.0,395.3 723.5,401.5 745.0,407.5 766.5,413.3 788.0,418.9 809.5,424.3 831.0,429.4 852.5,434.3 874.0,439.0 895.5,443.5 917.0,447.9 938.5,452.0 960.0,456.0" fill="none" stroke="#f36d9b" stroke-width="3"/>
+<line x1="100" y1="582" x2="128" y2="582" stroke="#ff9d3d" stroke-width="4"/>
+<text x="136" y="587" class="legend">NTP / chemical propellant mass</text>
+<line x1="390" y1="582" x2="418" y2="582" stroke="#4ed0e8" stroke-width="4"/>
+<text x="426" y="587" class="legend">NTP / chemical wet mass</text>
+<line x1="680" y1="582" x2="708" y2="582" stroke="#f36d9b" stroke-width="4"/>
+<text x="716" y="587" class="legend">NTP / chemical ideal kinetic energy</text>
+<text x="530.0" y="618" text-anchor="middle" class="small">Required ideal Δv (km/s)</text>
+<text x="26" y="312.0" text-anchor="middle" transform="rotate(-90 26 312.0)" class="small">Ratio (NTP / chemical)</text>
+</svg>
