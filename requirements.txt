@@ -1,0 +1,2 @@
+# The analysis uses only the Python standard library (Python 3.10+).
+# To regenerate the Blender scene, use Blender 4.5+ and run model/build_aether1.py.
