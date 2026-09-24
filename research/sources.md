@@ -1,0 +1,21 @@
+# Evidence register
+
+This register separates source claims from the repository's own derivations. NASA pages are primary institutional sources for the cited equations and NASA-sponsored studies. A source supporting a propulsion concept does not validate the AETHER-1 model.
+
+| ID | Claim used | Source and relevance | Limitation |
+| --- | --- | --- | --- |
+| S1 | The ideal rocket equation relates Δv, effective exhaust velocity, and initial/final mass; propellant can be solved from Isp and Δv. | NASA Glenn, [Ideal Rocket Equation](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ideal-rocket-equation/). The page derives `Δv = Isp g0 ln(m_initial/m_final)` and notes that gravity can be added as a penalty. | Ideal relation omits the full trajectory, drag, staging, engine/tank mass trades, and propulsion-system efficiency. |
+| S2 | Isp is impulse/thrust per propellant flow and a higher-Isp engine gives more impulse per propellant weight. | NASA Glenn, [Specific Impulse](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/specific-impulse/). | “More efficient” on this page means propellant/impulse performance, not lower total joules or lower vehicle mass for every mission. |
+| S3 | A high-performance LOX/LH2 chemical reference can be about 452 s vacuum Isp. | NASA NTRS, [Space Shuttle Main Engine systems data](https://ntrs.nasa.gov/api/citations/20240002641/downloads/02-Systems_rev3.pdf), reports 452 s vacuum Isp. | SSME is a launch engine; this is a reference number, not a matched in-space mission stage. |
+| S4 | NTP reference studies discuss approximately 880–900 s potential Isp. | NASA, [Advanced Fuel Forms for Nuclear Thermal Propulsion](https://www.nasa.gov/directorates/stmd/space-tech-research-grants/advanced-fuel-forms-for-nuclear-thermal-propulsion-applications/), describes 880–900 s potential and identifies severe hot-hydrogen fuel-form conditions. | It is a technology potential/reference, not measured AETHER-1 performance; the page is dated 2015. |
+| S5 | Mission propellant and vehicle size depend on achieved Isp, thrust, and transients. | NASA NTRS, [Parametric Modeling of NTP Engine Performance for a Crewed Mars Mission](https://ntrs.nasa.gov/citations/20230013241), models start/stop ramps and burn-average Isp. | A mission study's outcomes apply to its modeled architectures and assumptions. |
+| S6 | Engine/system dry mass varies materially between NTP and chemical architecture cases. | NASA NTRS, [Key Performance Parameters for an Operational Cis-Lunar NTP Vehicle](https://ntrs.nasa.gov/citations/20240004251), gives a study trade space with NTP engine masses and a separate LOX/LH2 chemical case. | The listed values are options inside one study's architectures, not a universal engine-mass ratio. |
+| S7 | Hydrogen NTP may be volume-limited, while vehicle/launch choices affect feasible architecture. | NASA NTRS, [Effect of Engine Thrust and Isp Tradeoffs and Alternate Propellants](https://ntrs.nasa.gov/citations/20240014769), reports vehicle configuration and launch-vehicle dependencies and hydrogen volume limitations for its cases. | Study applies to its first-generation flight-test configurations; do not generalize its exact outcomes. |
+| S8 | Integrated NTP can lower initial mass for some Mars architectures, which is a mission result, not a universal energy claim. | NASA NTRS, [Nuclear Thermal Rocket/Vehicle Characteristics and Sensitivity Trades](https://ntrs.nasa.gov/citations/20120012928), discusses a Mars DRA 5.0 architecture with 900–910 s NTR engines and lower initial mass in LEO versus the compared architecture. | This is a specific Mars mission/architecture comparison, not evidence of 50% lower energy or a universal mass percentage. |
+
+## Evidence status
+
+- **Equation-level result:** reproducible from S1 and the stated assumptions.
+- **Reference Isp values:** supported as comparison points by S3/S4; not a measured result for this concept.
+- **AETHER-1 physical performance:** no evidence. The Blender project is visual and does not compute propulsion.
+- **50% lower source energy:** no supporting evidence found in these sources; requires an explicit mission and energy boundary plus validated system models or experiment.
